@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding-right: 5vw;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-top: 2vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+}
+.wave {
+    height: 100vh;
+    width: auto;
+    position: absolute;
+}
+.logo{
+    height: auto;
+    width: 15vw;
+}
