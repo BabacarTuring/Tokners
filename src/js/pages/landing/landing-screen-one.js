@@ -1,5 +1,6 @@
+import anchor from "../../components/anchor.js"
 import boys from "../../components/landing/boys.js"
-
+import paragraph from "../../components/paragraph.js"
 const landingScreenOne = function(){
     return(
         `
@@ -10,6 +11,13 @@ const landingScreenOne = function(){
                     <img src="./public/assets/v2.png" alt="" />
                     <img src="./public/assets/v3.png" alt="" />
                     <img src="./public/assets/v1.png" alt="" />
+                </section>
+                 
+                <section class="intro">
+                    ${paragraph({content:'At Tokners are', id:'at'})}
+                    ${paragraph({content:'Reimagining social <br> media through the <br> power of the blockchain.', id:"re"})}
+                    ${paragraph({content:'We are creating social media 3.0 with influencers, celebrities and <br> creators being able to launch their own digital currency by simply <br> creating a profile with media content posted as Non fungible Tokens <br> that can be owned and traded on the Tokners network', id:'we'})}
+                    ${anchor({content:'LEARN MORE', href:'#'})}
                 </section>
 
                 <section>

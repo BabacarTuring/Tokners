@@ -188,3 +188,35 @@ main {
 
     }
 }
+
+#re {
+    font-size:200%;
+    font-weight: 600;
+    color: #191B21;
+    margin: 0;
+}
+
+#we{
+    font-size: 60%;
+    color: #191B21;
+}
+
+#at{
+   color: #2278D4; 
+   font-size: 70%;
+   font-weight: 600;
+}
+
+.intro{
+    position: absolute;
+    top:30%;
+    left: 10%;
+    :last-child {
+        color: white;
+        padding: 5px 10px;
+        background-color: #22A75D;
+        margin-top:50px;
+        border-radius: 20px;
+        font-size: 50%;
+    }
+}
