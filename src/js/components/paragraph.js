@@ -1,7 +1,7 @@
 const paragraph = function (data) {
     return (
         `
-        <p id="${data.id}">${data.content}</p>
+        <p class="paragraph" id="${data.id}">${data.content}</p>
         `
 
     )
