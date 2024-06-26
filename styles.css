@@ -1,3 +1,5 @@
 @import url("./src/css/base/base.css");
 @import url("./src/css/base/fonts.css");
-@import url("./src/css/pages/landing/landing-screen-one.css")
+@import url("./src/css/pages/landing/landing-screen-one.css");
+@import url("./src/css/pages/landing/landing-screen-two.css");
+

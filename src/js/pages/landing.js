@@ -1,6 +1,6 @@
 import header from "../components/header.js"
 import landingScreenOne from "./landing/landing-screen-one.js"
-
+import landingScreenTwo from "./landing/landing-screen-two.js"
 const landing = function(){
 
     const headerData = {
@@ -19,6 +19,7 @@ const landing = function(){
             <main class="main landing__main">
 
                 ${landingScreenOne()}
+                ${landingScreenTwo()}
             
             
             </main>

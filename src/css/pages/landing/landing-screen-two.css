@@ -1,0 +1,106 @@
+#landingTwo{
+    position: relative;
+    * {
+        z-index: 20;
+    }
+    #rectangles {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    p {
+        text-align: center;
+        font-size: 24px;
+        line-height: 20px;
+        color: #191B21;
+        font-size: 1.5em;
+    }
+    .title {
+        font-weight: 600;
+        display: inline;
+        font-size: 160%;
+        margin-top:17vh ;
+        margin-bottom: 7vh;
+    }
+    #creators{
+        color:#22A75D;
+        text-decoration: underline;
+    }
+    #holders{
+        color:#2278D4;
+        text-decoration: underline;
+    }
+        
+    
+    .rectangle {
+        display: flex;
+        flex-direction: column;
+        background-color:#f2f0f4ec;
+        align-items: center;
+        border-radius: 25px;
+        padding: 0 5vw;
+
+        #nerd{
+            height: 60vh;
+            width: auto;
+            align-self: flex-end;
+           
+
+        }
+    
+        #blueboy{
+            height: 60vh;
+            width: auto;
+            align-self: flex-end;
+        }   
+    
+    }
+    #wave{
+        position: absolute;
+        top:20vh;
+        z-index: 0;
+    
+    }
+    #backwave1 {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        height: 100%;
+        z-index: 0;
+        transform: scaleY(1.1);
+    }
+    #backwave2 {
+        width: 100%;
+        height: auto;
+        z-index: 0;
+    }
+    #what{
+        display: flex;
+        margin-top: 20vh ;
+        margin-left: 10vh ;
+        figure{
+            height: 5vh;
+            width: auto;
+            margin-right: 10vh ;
+        }
+        #question {
+            text-align: start;
+            color: #F7F5F9;
+            font-size: 200%;
+            line-height: 7vh;
+            font-weight: bold;
+            margin-right: 25vh ;
+        }
+        #reponse {
+            text-align: start;
+            color:#fff;
+            font-size: 0.618rem;
+            font-weight: lighter;
+            span:first-of-type{
+                font-weight: bolder;
+            }
+            span {
+                margin-bottom: 2.718vh;
+            }
+        }
+    }
+}
